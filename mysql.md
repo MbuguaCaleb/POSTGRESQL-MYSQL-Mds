@@ -8,11 +8,10 @@ Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered H
 - See HTML in the right
 - Magic
 
-  1.Login
-  ###mysql -u root -p
+###mysql -u root -p
 
-  2.Create User
-  You Have always the Permission to create a new user in databases
+2.Create User
+You Have always the Permission to create a new user in databases
 
 CREATE USER 'someuser'@'localhost' IDENTIFIED BY 'somepassword';
 
