@@ -8,6 +8,12 @@ Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered H
 - See HTML in the right
 - Magic
 
+```sh
+$ mysql -u root -p
+$ npm install -d
+$ node app
+```
+
 ###mysql -u root -p
 
 2.Create User
