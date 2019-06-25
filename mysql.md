@@ -2,35 +2,33 @@
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
 
 - Type some Markdown on the left
 - See HTML in the right
 - Magic
 
-1.Login
-#mysql -u root -p
+  1.Login
+  ###mysql -u root -p
 
-2.Create User
-You Have always the Permission to create a new user in databases
+  2.Create User
+  You Have always the Permission to create a new user in databases
 
 CREATE USER 'someuser'@'localhost' IDENTIFIED BY 'somepassword';
 
-#Taking NOTE ON THE CONVENTION 'CAPS FOR THE QUERIES'(Increases readability)
+###Taking NOTE ON THE CONVENTION 'CAPS FOR THE QUERIES'(Increases readability)
 
 3.Viewing all the Users
 
-#SELECT User, Host FROM mysql.user;
+###SELECT User, Host FROM mysql.user;
 
 4.Grant All Priveleges On All Databases
 
 User access Rights /Priviledges
 
-#GRANT ALL PRIVILEGES ON _ . _ TO 'someuser'@'localhost';
+###GRANT ALL PRIVILEGES ON _ . _ TO 'someuser'@'localhost';
 
-#FLUSH PRIVILEGES;
+###FLUSH PRIVILEGES;
 
 Flush Priviledges clears the grants table.
 
