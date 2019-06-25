@@ -2,52 +2,62 @@
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+MySQL COMMANDS
 
-- Type some Markdown on the left
-- See HTML in the right
-- Magic
+- EASY TO REMEMBER
 
 ```sh
 $ mysql -u root -p
-$ npm install -d
-$ node app
+
 ```
 
-###mysql -u root -p
-
 2.Create User
-You Have always the Permission to create a new user in databases
 
-CREATE USER 'someuser'@'localhost' IDENTIFIED BY 'somepassword';
+```sh
+$ CREATE USER 'someuser'@'localhost' IDENTIFIED BY 'somepassword';
 
-###Taking NOTE ON THE CONVENTION 'CAPS FOR THE QUERIES'(Increases readability)
+```
 
 3.Viewing all the Users
 
-###SELECT User, Host FROM mysql.user;
+```sh
+$ SELECT User, Host FROM mysql.user;
+
+```
 
 4.Grant All Priveleges On All Databases
 
 User access Rights /Priviledges
 
-###GRANT ALL PRIVILEGES ON _ . _ TO 'someuser'@'localhost';
+```sh
+GRANT ALL PRIVILEGES ON _ . _ TO 'someuser'@'localhost';
+```
 
-###FLUSH PRIVILEGES;
+```sh
+FLUSH PRIVILEGES;
+```
 
-Flush Priviledges clears the grants table.
+-Flush Priviledges clears the grants table.
 
 5.SHOW GRANTS(CHECK USER PRIVILEDGES)
 
-#SHOW GRANTS FOR 'someuser'@'localhost';
+```sh
+SHOW GRANTS FOR 'someuser'@'localhost';
+```
 
 6.Remove Grants
 
+```sh
 REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'someuser'@'localhost';
+```
 
 7.Delete User
 
-#DROP USER 'someuser'@'localhost';
+```sh
+
+DROP USER 'someuser'@'localhost';
+
+```
 
 8.Exit
 
